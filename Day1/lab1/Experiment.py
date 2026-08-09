@@ -28,19 +28,22 @@ class Experiment:
             data["researcher"],
             data["score"]
         )
+    def Report(self):
+        return f"Esperimnet--> {self.name}, Researcher--> {self.researcher}, Score--> {self._score1}"
 experiment_data = {
     "name": "Sentiment Analysis",
     "researcher": "Ahmed",
     "score": 0.87
 }
 ex1 = Experiment("Loubid","Ali",0.75)
+print(ex1.Report())
 print(ex1.score1)
 print(ex1._score1)
 ex2=Experiment.from_dict(experiment_data)
 print(ex2)
 
-#ex2 = Experiment("Loubid","Ali",1.005)#Error!
-#print(ex2.score1)
+# ex2 = Experiment("Loubid","Ali",1.005)#Error!
+print(ex2.score1)
 print(f"Name: {ex2.name}")
 print(f"Researcher: {ex2.researcher}")
 print(f"Score: {ex2.score1}")
