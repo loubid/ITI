@@ -58,5 +58,4 @@ print(f"Score: {ex1.score1}")
 
 
 
-#score must be between 0 and 1 
 
