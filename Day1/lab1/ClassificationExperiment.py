@@ -12,10 +12,10 @@ class ClassificationExperiment(Experiment) :
                     f" Score--> {self._score1}\n" 
                     f"number_of_Classes--> {self.number_of_classes}")
 
-class1 = ClassificationExperiment(
-    "Image Classification",
-    "Loubid",
-    0.95,
-    5
-)
-print(class1.Report())
+# class1 = ClassificationExperiment(
+#     "Image Classification",
+#     "Loubid",
+#     0.95,
+#     5
+# )
+# print(class1.Report())

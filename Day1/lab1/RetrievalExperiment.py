@@ -13,10 +13,10 @@ class RetrievalExperiment(Experiment):
                 f"Score--> {self._score1}\n"
                 f"top_k--> {self.top_k}")
 
-rert1 = RetrievalExperiment(
-    "Document Retrieval",
-    "Ahmed",
-    0.88,
-    10
-)
-print(rert1.Report())
+# rert1 = RetrievalExperiment(
+#     "Document Retrieval",
+#     "Ahmed",
+#     0.88,
+#     10
+# )
+# print(rert1.Report())
